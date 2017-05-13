@@ -1,0 +1,18 @@
+<% include ../views/partials/header %>
+
+
+ <form action="/todo/add" method= "POST"> 
+    <div>
+        <label >TodoName</label>
+        <input type="text" name= 'title' placeholder='your todo'>
+    </div><br><br>
+
+    <div>
+        <label >Description</label>
+        <textarea  name="description"  placeholder="Add Description"></textarea>
+     </div>
+     <button type='submit'>Submit</button>
+</form> 
+</body>
+</html>
+<% include ../views/partials/footer %>
